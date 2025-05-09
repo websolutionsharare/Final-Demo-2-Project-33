@@ -4,7 +4,6 @@ const { exec } = require("child_process");
 function startPipeline() {
    console.log("Starting CI/CD pipeline...");
 
-   // Example: Run a build command
    exec("npm run build", (error, stdout, stderr) => {
       if (error) {
          console.error(`Build failed: ${error.message}`);
