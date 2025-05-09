@@ -1,6 +1,5 @@
 const { exec } = require("child_process");
 
-// Function to start the CI/CD pipeline
 function startPipeline() {
    console.log("Starting CI/CD pipeline...");
 
